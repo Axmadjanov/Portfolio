@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Josefin+Sans:ital,wght@0,500;0,600;1,500&display=swap");
+
 * {
   padding: 0;
   margin: 0;
+  font-family: "Cabin", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   box-sizing: border-box;
 }
 li {
@@ -186,7 +190,8 @@ header {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    padding: 10px;
+    padding: 15px;
+    font-size:16px;
   }
 
   .clipPath {
@@ -242,7 +247,8 @@ header {
   .svg {
     width: 100%;
     width: 50%;
-    padding: 0 100px;
+    /* padding: 0 100px; */
+    padding-left:85px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -266,11 +272,15 @@ header {
     background: linear-gradient(to right, #0083b0, #00b4db);
   }
   /* Header finished */
+  .skills {
+    padding: 20px 0;
+  }
   .skillText {
     font-size: 35px;
     text-align: center;
   }
   .cards {
+    overflow-x: hidden;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -281,7 +291,10 @@ header {
     width: 85%;
     margin: 8px 0;
     border-radius: 10px;
-    background-color: #e15e2f;
+    background: #e44d26;
+    background: -webkit-linear-gradient(to right, #f16529, #e44d26);
+    background: linear-gradient(to right, #f16529, #e44d26);
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,7 +304,10 @@ header {
     width: 85%;
     margin: 8px 0;
     border-radius: 10px;
-    background-color: #00b4db;
+    background: #005c97;
+    background: -webkit-linear-gradient(to right, #363795, #005c97);
+    background: linear-gradient(to right, #363795, #005c97);
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,7 +317,10 @@ header {
     width: 85%;
     margin: 8px 0;
     border-radius: 10px;
-    background-color: #ffef0e;
+    background: #fffc00;
+    background: -webkit-linear-gradient(to right, #f3c86a, #fffc00);
+    background: linear-gradient(to right, #f3c86a, #fffc00);
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,16 +330,73 @@ header {
     width: 48px;
   }
   .react {
-    width: 48px;
+    width: 64px;
   }
   .card:nth-child(4) {
     width: 85%;
     margin: 8px 0;
     border-radius: 10px;
-    background-color: #00ffc8;
+    background: #2193b0;
+    background: -webkit-linear-gradient(to right, #6dd5ed, #79d5ec);
+    background: linear-gradient(to right, #6dd5ed, #79d5ec);
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    padding: 35px 0;
+  }
+  .card:nth-child(5) {
+    width: 85%;
+    margin: 8px 0;
+    border-radius: 10px;
+    background: #f953c6;
+    background: -webkit-linear-gradient(to right, #b91d73, #f953c6);
+    background: linear-gradient(to right, #b91d73, #f953c6);
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+  }
+  /* Skills finished */
+  .footer {
+    background: #008ffc;
+    padding-top: 40px;
+    clip-path: polygon(50% 5%, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+  .contactG {
+    padding: 15px;
+    font-size: 18px;
+  }
+  .via {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  .contactG input {
+    padding: 8px 3px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 70%;
+  }
+  .contactG textarea {
+    padding: 8px 3px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 70%;
+  }
+  .aloqa {
+    text-align: center;
+    font-size: 30px;
+  }
+  .send{
+    border:none;
+    color:#fff;
+    padding:8px 14px;
+    border-radius:5px;
+    background: #005c97;
+
   }
 }
