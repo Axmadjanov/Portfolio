@@ -180,8 +180,8 @@ header {
   margin: 10px 0;
   border-radius: 10px;
   background: #2193b0;
-  background: -webkit-linear-gradient(to right, #6dd5ed, #79d5ec);
-  background: linear-gradient(to right, #6dd5ed, #79d5ec);
+  background: -webkit-linear-gradient(to right, #3bb2cc, #3bb2cc);
+  background: linear-gradient(to right, #3bb2cc, #3bb2cc);
   box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
@@ -587,8 +587,8 @@ header {
     margin: 8px 0;
     border-radius: 10px;
     background: #2193b0;
-    background: -webkit-linear-gradient(to right, #6dd5ed, #79d5ec);
-    background: linear-gradient(to right, #6dd5ed, #79d5ec);
+    background: -webkit-linear-gradient(to right, #3bb2cc, #3bb2cc);
+    background: linear-gradient(to right, #3bb2cc, #3bb2cc);
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
