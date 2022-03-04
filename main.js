@@ -5,6 +5,7 @@ const navLink = document.querySelectorAll(".nav__link");
 const stikyOpen = document.getElementById("stikyOpen");
 const stiky = document.getElementById("stiky");
 const stiky2 = document.getElementById("stiky2");
+const container = document.querySelector(".container");
 
 if (navToggle) {
   navToggle.addEventListener("click", () => {
